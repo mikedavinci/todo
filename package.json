@@ -1,0 +1,28 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "to do list",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cors": "^2.8.1",
+    "express": "^4.14.0",
+    "mongodb-uri": "^0.9.7",
+    "mongoose": "^4.6.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikedavinci/todo.git"
+  },
+  "author": "Miguel Esparza aka Mikedavinci",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikedavinci/todo/issues"
+  },
+  "homepage": "https://github.com/mikedavinci/todo#readme"
+}
