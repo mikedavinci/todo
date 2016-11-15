@@ -7,7 +7,7 @@ const cors = require('cors');
 const mongoose = require('mongoose');
 const uriUtil = require('mongodb-uri');
 
-const mongodbUri = 'mongodb://mikedavinci:mikedavinci1@ds151117.mlab.com:51117/todo'
+const mongodbUri = 'mongodb://:@ds151117.mlab.com:51117/todo'
 const mongooseUri = uriUtil.formatMongoose(mongodbUri);
 const dbOptions = {};
 
